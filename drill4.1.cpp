@@ -9,15 +9,9 @@ int main()
 a=1;
 b=1;
 
-while (a != 0)
-{cin >> c;
-if (c==0)
-      break;
-
-a=c;
-cin >> c;
-b=c;
-cout << a << " " << b; } cout << b;
+while (cin >> a && cin >>b)
+{
+cout << a << " " << b;
  if (a < b )
       {cout << "the smaller number is " << a << endl;
        cout << "the bigger number is " << b << endl;
@@ -29,7 +23,7 @@ if (a == b) {cout << "equal" << endl;}
 n=abs(a)- abs(b);
 p=1/100;
 if (n < p)
-{cout << "almost equal" << endl;
+{cout << "almost equal" << endl;}
 
 }
 }
